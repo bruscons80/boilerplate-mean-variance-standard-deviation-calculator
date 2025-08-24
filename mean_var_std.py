@@ -1,7 +1,7 @@
 import numpy as np
 
 def calculate(list):
- """
+  """
   Calculates the mean, variance, standard deviation, max, min, and sum of a 3x3 matrix.
 
   Args:
@@ -15,7 +15,6 @@ def calculate(list):
   """
   if len(list) != 9:
     raise ValueError("List must contain nine numbers.")
-
 
   matrix = np.array(list).reshape(3, 3)
 
